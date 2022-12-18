@@ -1,0 +1,5 @@
+const userText = prompt('Введите любой текст').trim()
+const wordFromText = prompt('Введите слово из текста').trim()
+const indexOfWord = userText.indexOf(wordFromText)
+const string = userText.slice(0, indexOfWord)
+console.log(`Результат: ${string}`)
